@@ -2,7 +2,7 @@ struct gold{
   int Increment;
   int Max;
   int Current;
-}
+};
 
 struct Board {
     int * battleground;
