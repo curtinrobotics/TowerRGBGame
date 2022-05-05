@@ -10,3 +10,14 @@ struct Board {
     int time;
     int * spawnrate;
 };
+
+struct Unit {
+		int position;
+		int health;
+		int damage;
+		int colour[4];
+		bool direction;
+		bool enemy;
+		int cost;
+};
+
