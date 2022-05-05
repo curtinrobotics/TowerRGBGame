@@ -4,3 +4,9 @@ struct gold{
   int Current;
 }
 
+struct Board {
+    int * battleground;
+    int tickrate;
+    int time;
+    int * spawnrate;
+};
